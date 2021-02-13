@@ -1,0 +1,13 @@
+.container {
+  height: 720px;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  overflow: hidden;
+}
+
+.containerChild {
+  height: 100%;
+  margin-right: -50px; /* Maximum width of scrollbar */
+  padding-right: 50px; /* Maximum width of scrollbar */
+  overflow-y: scroll;
+}
