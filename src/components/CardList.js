@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 
+
 const CardList = ({pokemons}) => {
 	return (
 		<div className="flex flex-wrap justify-center items-center">
